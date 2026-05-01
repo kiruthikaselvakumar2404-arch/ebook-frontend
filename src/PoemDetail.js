@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import poems from "../data/poems";
+import poems from "./poems";
 
 function PoemDetail() {
   const { id } = useParams();

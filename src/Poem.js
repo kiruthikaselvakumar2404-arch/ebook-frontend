@@ -1,5 +1,5 @@
-import poems from "../data/poems";
-import PoemCard from "../components/PoemCard";
+import poems from "./poems";
+import PoemCard from "./PoemCard";
 
 function Poems() {
   return (

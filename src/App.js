@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Poems from "./pages/Poem";
-import PoemDetail from "./pages/PoemDetail";
-import Contact from "./pages/Contact";
-import Vazhthurai from "./pages/Vazhthurai";
-import Anindhurai from "./pages/Anindhurai";
-import Ennurai from "./pages/Ennurai";
+import Navbar from "./Navbar";
+import Home from "./Home";
+import About from "./About";
+import Poems from "./Poem";
+import PoemDetail from "./PoemDetail";
+import Contact from "./Contact";
+import Vazhthurai from "./Vazhthurai";
+import Anindhurai from "./Anindhurai";
+import Ennurai from "./Ennurai";
 function App() {
   return (
     <Router>
